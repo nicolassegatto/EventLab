@@ -33,13 +33,6 @@ interface VideoProps {
   lessonSlug: string
 }
 
-
-/*
-<Player>
-            <Youtube videoId={data.lesson.videoId}/>
-            <DefaultUi />
-          </Player>
-*/
 export function ContentVideo(props: VideoProps) {
 
   const {data} = useQuery<GetLessonBySlugResponse>(getLessonBySlug, {
