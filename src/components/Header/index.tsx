@@ -1,4 +1,4 @@
-import logo from '../../assets/showTheCode.svg'
+import logo from '/src/assets/showTheCode.svg'
 export function Header(){
   return(
     <header className="w-full py-5 flex items-center justify-center bg-gray-700 border-b border-gray-600">
