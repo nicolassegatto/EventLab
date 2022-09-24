@@ -9,7 +9,6 @@ interface LinkParam {
   slug: string
 }
 
-//{!slug ? (data?.lessons[0].slug ? <ContentVideo lessonSlug={data.lessons[0].slug} /> : <div className="flex-1" />) : (<ContentVideo lessonSlug={slug} />)}
 export function Evento() {
   const { slug } = useParams<LinkParam["slug"]>()
   const { data } = useGetSlugWithoutLinkQuery()
